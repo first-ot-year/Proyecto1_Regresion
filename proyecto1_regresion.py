@@ -40,8 +40,8 @@ class ProyectoRegresionFinalCompleto(Scene):
         axes = Axes(
             x_range=[0, 10, 2], y_range=[0, 14, 2],
             x_length=6, y_length=5,
-            axis_config={"color": BLUE},
-        ).add_coordinates().to_edge(LEFT).shift(DOWN * 0.3)
+            axis_config={"color": BLUE, "include_numbers": False},
+        ).to_edge(LEFT).shift(DOWN * 0.3)
 
         labels = axes.get_axis_labels(x_label="x", y_label="y")
         self.play(Create(axes), Write(labels))
@@ -131,7 +131,7 @@ class ProyectoRegresionFinalCompleto(Scene):
         self.wait(2)
 
         # Ejes y datos curvos
-        axes_p = Axes(x_range=[0, 10], y_range=[-5, 25], x_length=6, y_length=5).add_coordinates().to_edge(RIGHT).shift(
+        axes_p = Axes(x_range=[0, 10], y_range=[-5, 25], x_length=6, y_length=5).to_edge(RIGHT).shift(
             DOWN * 0.5)
         x_p = np.linspace(1, 9, 15)
         y_p = 0.5 * (x_p - 5) ** 2 + 2 + np.random.normal(0, 0.8, 15)
