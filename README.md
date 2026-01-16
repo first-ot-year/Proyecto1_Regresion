@@ -57,4 +57,4 @@ Las bibliotecas necesarias están listadas en `requirements.txt`:
 Para generar el video en alta calidad (1080p, 60fps), ejecuta el siguiente comando en tu terminal:
 
 ```bash
-manim -pqh proyecto_ml_final.py ProyectoMachineLearning
+manim -pqh proyecto1_regresion.py ProyectoRegresionFinalCompleto
