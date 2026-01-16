@@ -3,7 +3,7 @@
 **Curso:** CS3061 Machine Learning  
 **Universidad:** UTEC - Universidad de Ingeniería y Tecnología  
 **Grupo:** 3
-
+**Participantes:** Carlos Angel Oriundo
 ## 📝 Descripción
 
 Este proyecto utiliza la biblioteca de animación matemática **Manim (Community Edition)** para demostrar visualmente los conceptos fundamentales de los modelos de regresión.
@@ -58,3 +58,6 @@ Para generar el video en alta calidad (1080p, 60fps), ejecuta el siguiente coman
 
 ```bash
 manim -pqh proyecto1_regresion.py ProyectoRegresionFinalCompleto
+
+
+
